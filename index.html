@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+    <title>MyChat App</title>
+</head>
+<body>
+    <section class="chat--section">
+        <div class="brand">
+            <i class='bx bx-chat'></i>
+            <!-- <img src="" alt=""> -->
+            <h1>MyChat Room</h1>
+        </div>
+        <div class="message__area">
+            <!-- <div class="incoming message">
+                <h4>Ganesh</h4>
+                <p>hi</p>
+            </div>
+            <div class="outgoing  message">
+                <h4>Ganesh</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, rerum!</p>
+            </div> -->
+        </div>
+        <div><textarea  id="textarea" cols="30" rows="1" placeholder="Write A Message Here."></textarea></div>
+    </section>  
+    <!-- <script src="./script.js"></script> -->
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+</html> 
